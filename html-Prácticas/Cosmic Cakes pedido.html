@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Cakes pedido</title>
+</head>
+<body>
+    <img src="Logo cosmic cakes.png" alt="Cosmmic Cakes Logo" width="100px">
+    <h1>Cosmic Cakes</h1>
+    <h2>Pastelería fuera de este mundo</h2> 
+    
+    <hr>
+    <a href="Cosmic Cakes principal.html" target="_blank">Inicio</a>
+    <a href="Cosmic Cakes pedido.html" target="">Realiza tu pedido</a>
+    <a href="Cosmic Cakes nosotros.html" target="_blank">Sobre nosotros</a>
+    <a href="Cosmic Cakes inventario.html" target="_blank">Inventario</a>
+
+    <hr>
+
+    <h3>Realiza tu pedido</h3>
+    <b>Brindanos tus datos para contactarte</b><br>
+
+
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre completo"><br><br>
+    <input type="email" id="correo" name="correo" placeholder="Correo electrónico"><br><br>
+    <input type="tel" id="telefono" name="telefono" placeholder="Teléfono (10 dígitos)" maxlength="10"><br><br>
+
+    <hr>
+    <h3Selecciona los elementos de tu pedido</h3>
+    <b>Selecciona el sabor o los sabores de tu pastel</b><br><br>
+    <input type="checkbox" id="sabor" name="chocolate" value="Chocolate">
+    <label for="topping1">Chocolate ..... $xx.xx</label><br>
+    <input type="checkbox" id="sabor" name="fresa" value="Fresa">
+    <label for="topping2">Fresa ..... $xx.xx</label><br>
+    <input type="checkbox" id="sabor" name="vainilla" value="Vainilla">
+    <label for="topping3">Vainilla ..... $xx.xx</label><br><br>
+    
+    <b>Selecciona que adornos quieres en tu pastel y en qué cantidad</b><br><br>
+    <input type="checkbox" id="adorno1" name="adorno1" value="Planetas">
+    <label for="topping1">Planetas ..... $xx.xx</label>      <input type="number" id="cantidad" name="cantidad" value="numeroadornos" min="0"><br><br>
+    <input type="checkbox" id="adorno2" name="adorno2" value="Estrellas">
+    <label for="topping2">Estrellas ..... $xx.xx</label>      <input type="number" id="cantidad" name="cantidad" value="numeroadornos" min="0"><br><br>
+    <input type="checkbox" id="adorno3" name="adorno3" value="Naves">
+    <label for="topping3">Naves espaciales ..... $xx.xx</label>      <input type="number" id="cantidad" name="cantidad" value="numeroadornos" min="0"><br><br>
+
+    <b>Aquí puedes enviarnos tu referencia de pastel si tienes una</b><br><br>
+    <input type="file" id="archivo1" name="archivo1" multiple><br><br>
+    <textarea name="descripcion" placeholder="Si tienes una descripción o una petición especial coméntanos"></textarea><br><br>
+    <input type="submit" value="Enviar pedido" onclick="alert('Tu pedido ha sido registrado');"><br>
+    
+    <hr>
+    
+    <h2>¡Contáctanos!</h2>
+    <p>
+        Dirección: Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+        Correo electrónico: cosmic-cakes@bakery.com <br>
+        Teléfono: 55-12-34-67-89 <br>
+        Redes sociales:
+    </p>
+    <ul>
+        <li>Instagram: @_cosmiccakes</li>
+        <li>Facebook: /CosmicCakes</li>
+    </ul>
+    <h3>Horarios de atención:</h3>
+    <p>
+        Martes a Domingo de 10:00 am a 08:00 pm
+    </p>
+</body>
+</html>
